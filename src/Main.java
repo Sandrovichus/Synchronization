@@ -34,7 +34,7 @@ public class Main {
         int maxFrequency = Integer.MIN_VALUE;
         StringBuilder list = new StringBuilder();
         Integer maxName = 0;
-        for (Integer name : sizeToFreq.keySet()) {       // определяет макимальное количество повторений частоты и ее частоту в маршруте
+        for (Integer name : sizeToFreq.keySet()) {       // определяет макcимальное количество повторений частоты и ее частоту в маршруте
             if (sizeToFreq.get(name) > maxFrequency) {
                 maxFrequency = sizeToFreq.get(name);
                 maxName = name;
